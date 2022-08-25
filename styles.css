@@ -148,9 +148,49 @@ li a {
 
 .bottom{
     display:flex;
-    height: 300px;
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    
 }
 
 .footer-box{
+    justify-content: space-around;
+    flex-grow: 1;
+    display:flex;
     background-color: #3882f6;
+    border-radius: 10px;
+    margin: 80px 20px;
+    padding: 50px 60px;
+}
+.left {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.left h2 {
+    color:#F9FAF8;
+    font-weight: bold;
+    margin-bottom: 2px;
+    margin-top: 0;
+    font-size: 28px;
+}
+
+.left p {
+    color:#D3D3D3;
+    font-size: 15px;
+    margin: 0;
+}
+
+.footer-box button {
+    border-radius: 10px;
+    background-color: #3882f6;
+    padding: 5px 40px;
+    border-color: whitesmoke;
+    border-style: solid;
+    color:white;
+    font-weight: bold;
+    font-size: 18px;
 }
